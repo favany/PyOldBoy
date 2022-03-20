@@ -1,0 +1,62 @@
+本周内容：
+    day01：面向对象编程基础
+        一： 面向对象编程介绍
+            对象
+            类
+        二：面向对象编程
+            类的定义与实例化
+            属性访问
+            类属性与对象属性
+            属性查找顺序与绑定方法
+
+    day02-day03：封装与继承
+        一：封装相关
+            隐藏属性
+            开放接口
+            隐藏数据接口
+            隐藏函数接口
+            property
+
+        二：继承相关：
+            继承介绍
+            继承与抽象
+            属性查找
+            继承的实现原理
+            菱形问题
+            继承原理
+            深度优先和广度优先
+            python Mixins机制
+            派生与方法
+
+    day04：
+        多态性与鸭子类型
+        绑定方法与非绑定方法
+        反射
+
+
+
+# 学生的数据
+stu_name='egon'
+stu_age=18
+stu_gender='male'
+
+# 学生的功能
+def tell_stu_info():
+    print('学生信息：名字：%s 年龄：%s 性别：%s' %(stu_name,stu_age,stu_gender))
+
+def set_info():
+    stu_name='EGON'
+    stu_age=19
+    stu_gender='female'
+
+
+# 课程的数据
+course_name='python'
+course_period='6mons'
+course_score=10
+
+# 课程的功能
+def tell_coure_info():
+    print('课程信息：名字：%s 周期：%s 学分：%s' %(course_name,course_period,course_score))
+
+

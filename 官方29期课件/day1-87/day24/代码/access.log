@@ -1,0 +1,5 @@
+2020-04-01 09:15:19 AM - root - DEBUG -01 logging模块:  调试debug
+2020-04-01 09:15:19 AM - root - INFO -01 logging模块:  消息info
+2020-04-01 09:15:19 AM - root - WARNING -01 logging模块:  警告warn
+2020-04-01 09:15:19 AM - root - ERROR -01 logging模块:  egon提现失败
+2020-04-01 09:15:19 AM - root - CRITICAL -01 logging模块:  严重critical

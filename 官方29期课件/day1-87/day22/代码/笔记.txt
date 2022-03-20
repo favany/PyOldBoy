@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+本周内容安排：
+    day01
+        一 time与datetime模块
+        二 random模块
+        三 os模块
+        四 sys模块
+        五 shutil模块
+        六 json&pickle模块
+
+    day02
+        七 shelve模块
+        八 xml模块
+        九 configparser模块
+        十 hashlib模块
+        十一 suprocess模块
+        十二 logging模块
+
+    day03
+        01 面向对象基础（re模块）
+        内置函数
+
+    day04
+        ATM+购物车的项目上
+
+    day05
+        ATM+购物车的项目下
+
+
+    day06：复习
+
+    day07：大考
+        笔试：一个月所学
+        机试：ATM+购物车的项目
+
+
+
+
+
+
+
+
+
+
+
+

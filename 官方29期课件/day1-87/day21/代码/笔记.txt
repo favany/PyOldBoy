@@ -1,0 +1,45 @@
+考试十分钟：
+    1、递归实现二分法
+    2、简述面向过程编程的编程思路及期优缺点
+    3、举例简述匿名函数的应用
+        lambda x,y:x+y
+    4、什么是模块？针对模块的三种类别说明为何要用模块
+
+
+
+
+
+
+
+
+今日内容：
+    1、一个py文件有几种用途？
+        执行py文件与导入py文件的区别是什么？
+
+        画图：import 模块
+
+    2、from...import ...
+        画图解释
+
+    3、循环导入问题
+    4、搜索模块的路径与优先级
+    5、区分py文件的两种用途
+    6、编写一个规范的模块
+
+    7、包（****）
+
+    8、软件开发的目录规范
+
+    9、补充函数的知识点：
+        类型提示 Type hinting（最低 Python 版本为 3.5）
+
+
+
+
+    10、最低 Python 版本为 3.5
+    from pathlib import Path
+    root=Path(__file__)
+    res=root.parent.parent / r'\bbb\aaa\ccc'
+    print(res)
+
+    print(res.resolve())

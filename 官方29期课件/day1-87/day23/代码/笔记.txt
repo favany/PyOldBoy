@@ -1,0 +1,19 @@
+
+
+今日内容：
+    六 json&pickle模块
+    七 shelve模块（了解）
+    八 xml模块（了解）
+
+    九 configparser模块
+
+    十 hashlib模块
+
+    十一 suprocess模块
+        os.system('dir')  应用程序
+                          操作系统
+
+    十二 logging模块
+
+
+
