@@ -1,0 +1,79 @@
+考试十分钟：
+    0:  引用传递
+        python中所有值的传递，传递的都是不是值本身，而是值的引用，即内存地址
+
+    1、函数分为两大类，分别是是什么？二者在使用时有何区别？
+        内置函数
+        自定义函数
+    2、什么是形参、什么是实参？形参与实参之间的关系是什么？
+        def func(x,y):
+            print(x)
+
+        func(1,2)
+    3、简述两只形参的区别：位置形参、默认形参
+        x=[]
+        def func(name,age,gender=None): # gender=列表的的内存地址
+            if gender is None:
+                gender=[]
+            print(gender)
+
+        x.append(111)
+        func('egon',18)
+
+        ps:函数最理想的状态是函数的运行不受外界代码的干扰
+
+    4、简述两只实参的区别：位置实参、关键字实参
+
+        func(1,2,3,b=2,a=1,x=33)
+
+    5、简述*与**在形参与实参中的区别
+        def func(*args,**kwargs):
+            pass
+        func(1,2,3,4,5,x=1,y=2,z=3)
+
+        func(*'hello') # func('h','e','l','l','o')
+        func(**{'a':1,'b':2}) # func(a=1,b=2)
+
+
+
+    6、解释下述形式，即函数wrapper的参数特点是什么
+        def index(x,y,z):
+            print(x,y,z)
+
+        def wrapper(*args,**kwargs): # args=(1,) kwargs={'y':2,'z':3}
+            index(*args,**kwargs)
+            # index(*(1,),**{'y':2,'z':3})
+            # index(1,z=3,y=2)
+
+        wrapper(1,z=3,y=2)
+
+
+
+今日内容：
+    1、函数参数补充（了解）
+        # 2.5 命名关键字参数（了解）
+        # 2.6 组合使用（了解）
+
+    2、名称空间（namespaces）
+        I：三种名称空间用途与存活周期
+        II：三种名称空间的加载顺序
+        III：三种名称空间的查找名字的优先级
+    3、作用域
+        全局作用域
+        局部作用
+
+        global
+        local
+
+        函数嵌套使用的情况下，作用域与名字的查找关系
+
+    4、函数对象
+
+    5、闭包函数
+
+
+
+
+
+
+

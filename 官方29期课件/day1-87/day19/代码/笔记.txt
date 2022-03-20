@@ -1,0 +1,65 @@
+考试十分钟：
+    1、有参装饰器auth
+        from functools import wraps
+        def deco(x,y,z):
+            def outter(func):
+                @wraps(func)
+                wrapper(*args,**kwargs):
+                    res=func(*args,**kwargs)
+                    return res
+                return wrapper
+            return outter
+
+
+    2、分析@auth(db_type='file')的执行过程
+       @deco(1,2,3) => @outer => 原函数名=outer(被装饰的函数)
+
+    3、简述什么是可迭代对象、什么是迭代器对象
+        __iter__
+        __next__
+    4、简述迭代器的优缺点
+        def add():
+            count=0
+            while True:
+                count+=1
+                yield count
+
+        g=add()
+        print(next(g))
+        print(next(g))
+        print(next(g))
+        print(next(g))
+        print(next(g))
+
+        new_g=add()
+
+    5、简述for循环工作原理
+        for x in 可迭代对象: # 可迭代对象.__iter__()=>迭代器对象-》x=next(迭代器对象)
+            print(x)
+    6、自定义迭代器实现range功能
+        def func():
+            yield
+
+
+
+今日内容：
+    一、叠加多个装饰器的加载、运行分析（了解***）
+        # @deco1 # index=deco1(deco2.wrapper的内存地址)
+        # @deco2 # deco2.wrapper的内存地址=deco2(deco3.wrapper的内存地址)
+        # @deco3 # deco3.wrapper的内存地址=deco3(index)
+        # def index():
+        #     pass
+
+    二、生成器的高级玩法之yield挂起函数：yield的表达式形式（了解***）
+        x=yield 返回值
+
+    三、三元表达式
+
+    四、生成式
+        列表生成式
+        字典生成式
+        生成器表达式
+
+    五、函数的递归调用
+
+    六、二分法

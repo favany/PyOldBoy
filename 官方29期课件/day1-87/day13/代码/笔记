@@ -1,0 +1,78 @@
+上节课复习：
+    x+
+    b
+      1、读写都是以bytes
+      2、针对所有文件
+      3、一定不能指定encoding
+
+    with open('a.txt',mode='rb') as f:
+        res=f.read()
+        print(res) # bytes类型
+
+        res.decode('utf-8')
+
+
+    bytes=>二进制
+        得到bytes类型的三种方式
+        1、字符串编码之后的结果
+            '上'.encode('utf-8')
+            bytes('上',encoding='utf-8')
+
+        2、b'必须是纯英文字符'
+
+        3、b模式下打开文件，f.read()读出的内容
+
+
+    f.readline()
+    f.readlines() & f.read()
+    with open('a.txt',mode='rt',encoding='utf-8') as f:
+        for line in f:
+            print(line)
+
+        while True:
+            # line=f.read(1024)
+            line=f.readline()
+            print(line)
+            if len(line) == 0:
+                break
+
+
+    #f.seek(10,0)
+    #f.seek(2,0)
+    #f.seek(3,0)
+
+    # f.seek(10,1)
+    # f.seek(2,1) # 12
+    # f.seek(3,1) # 15
+
+    f.seek(-3,2)
+    f.seek(-2,2)
+    f.seek(-10,2)
+
+    rb r+b
+
+今日内容：
+    1、f.seek的应用
+        tail -f access.log程序讲解
+
+    2、文件修改的两种方式
+
+    3、函数的基本使用
+        先定义
+            三种定义方式
+        后调用
+            三种调用方式
+
+        返回值
+            三种返回值的形式
+
+    4、函数参数
+
+        一 形参与实参介绍
+        二 形参与实参的具体使用
+        2.1 位置参数
+        2.2 关键字参数
+
+
+
+        2.3 默认参数

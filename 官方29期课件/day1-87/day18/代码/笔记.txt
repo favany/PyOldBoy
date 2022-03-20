@@ -1,0 +1,47 @@
+考试十分钟：
+    编写统计运行时间装饰器：timmer
+    编写认证功能装饰器：auth
+
+上节课复习：
+    无参装饰的模板：
+        def outter(func):
+            def wrapper(*args,**kwargs):
+                res=func(*args,**kwargs)
+                return res
+            return wrapper
+
+
+    装饰的目标：
+        装饰器就是在不修改不被装饰器对象源代码与调用方式的前提下为其添加新功能
+
+    import time
+
+    # @名字 # home=名字(home)
+    @outter # index=outter(index) # index=函数wrapper的内存地址
+    def index(x,y):
+        print('index->%s %s' %(x,y))
+
+    @outter
+    def home(a,b,c):
+        pass
+
+    def outter(func):
+        # func=被装饰对象的内存地址
+        def wrapper(*args, **kwargs):
+            start = time.time()
+            func(*args, **kwargs)  # index(y=3,x=4)
+            stop = time.time()
+            print(stop - start)
+        return wrapper
+
+    index(1,2)
+
+
+今日内容：
+    有参装饰器（需要掌握）
+
+    迭代器
+        for循环的工作原理
+
+    生成器:yield
+

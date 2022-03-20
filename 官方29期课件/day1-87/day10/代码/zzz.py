@@ -1,0 +1,8 @@
+# coding:gbk
+
+# ху╤В,aasdfasdf
+print(1+2)
+
+x=u'ио'
+
+
