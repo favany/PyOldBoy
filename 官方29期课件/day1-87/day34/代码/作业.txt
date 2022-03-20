@@ -1,0 +1,9 @@
+作业：整理笔记
+    https://zhuanlan.zhihu.com/p/110296719
+    https://www.cnblogs.com/linhaifeng/articles/5937962.html
+
+
+选做作业：远程控制
+             阿里云服务端
+
+手机软件                本地电脑：客户端软件
