@@ -172,10 +172,14 @@ func(1, 2, 3, 4, 5, x=1, y=2, z=3)
 # a 1
 # args (2, 3, 4, 5)
 # kwargs {'x': 1, 'y': 2, 'z': 3}
+
+
 def index(x, y, z):
     print("index ==> ", x, y, z)
 
 def wrapper(a, b, c):
-    index(x, y, z)
+    index(a, b, c)
+
+wrapper(1, 2, 3)  # index ==>  1 2 3  为 wrapper 参数是给 index 用的
 
 
