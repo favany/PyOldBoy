@@ -28,6 +28,7 @@ print(res)  # res = func的内存地址
 res()
 
 # 4. 可以当作容器类型的一个元素
+<<<<<<< Updated upstream
 l = [func, ]
 print(l)  # [<function func at 0x103723f70>]
 l[0]()  # from func
@@ -35,11 +36,22 @@ l[0]()  # from func
 
 dic = {'k1': func}
 dic['k1']()  # from func
+=======
+# l = [func, ]
+# print(l)
+# l[0]()
+
+
+dict = {'k1': func}
+print(dict)
+dict['k1']()
+>>>>>>> Stashed changes
 
 
 def login():
     print("登陆功能")
 
+<<<<<<< Updated upstream
 def transfer():
     print("转账功能")
 
@@ -140,3 +152,12 @@ def f1():
         print(x)
     return f2
 """
+=======
+
+def transfer():
+    print("转账")
+
+
+def check_balance():
+    print("查询余额")
+>>>>>>> Stashed changes
