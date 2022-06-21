@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc4aa478-ea6a-41e7-abd2-a4878df2ebcb" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZxjF6Q5e8A99yi0BLiCg6M5Ury" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Python.start">
+    <configuration name="settings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ATM_s14" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/conf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/conf/settings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ATM_s14" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.start" />
+        <item itemvalue="Python.settings" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc4aa478-ea6a-41e7-abd2-a4878df2ebcb" name="Default Changelist" comment="" />
+      <created>1585787532816</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585787532816</updated>
+      <workItem from="1585787534052" duration="11697000" />
+      <workItem from="1585801929105" duration="194000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1384" height="526" key="GridCell.Tab.0.bottom" timestamp="1585801447403">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1384" height="526" key="GridCell.Tab.0.bottom/42.23.1638.1027@42.23.1638.1027" timestamp="1585801447403" />
+    <state width="1384" height="462" key="GridCell.Tab.0.bottom/43.23.1637.1027@43.23.1637.1027" timestamp="1585799699248" />
+    <state width="1384" height="526" key="GridCell.Tab.0.center" timestamp="1585801447402">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1384" height="526" key="GridCell.Tab.0.center/42.23.1638.1027@42.23.1638.1027" timestamp="1585801447402" />
+    <state width="1384" height="462" key="GridCell.Tab.0.center/43.23.1637.1027@43.23.1637.1027" timestamp="1585799699247" />
+    <state width="1384" height="526" key="GridCell.Tab.0.left" timestamp="1585801447402">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1384" height="526" key="GridCell.Tab.0.left/42.23.1638.1027@42.23.1638.1027" timestamp="1585801447402" />
+    <state width="1384" height="462" key="GridCell.Tab.0.left/43.23.1637.1027@43.23.1637.1027" timestamp="1585799699246" />
+    <state width="1384" height="526" key="GridCell.Tab.0.right" timestamp="1585801447403">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state width="1384" height="526" key="GridCell.Tab.0.right/42.23.1638.1027@42.23.1638.1027" timestamp="1585801447403" />
+    <state width="1384" height="462" key="GridCell.Tab.0.right/43.23.1637.1027@43.23.1637.1027" timestamp="1585799699247" />
+    <state x="273" y="164" key="SettingsEditor" timestamp="1585801908190">
+      <screen x="42" y="23" width="1638" height="1027" />
+    </state>
+    <state x="273" y="164" key="SettingsEditor/42.23.1638.1027@42.23.1638.1027" timestamp="1585801908190" />
+    <state x="438" y="369" key="com.intellij.ide.util.TipDialog" timestamp="1585801926754">
+      <screen x="44" y="23" width="1636" height="1027" />
+    </state>
+    <state x="438" y="369" key="com.intellij.ide.util.TipDialog/44.23.1636.1027@44.23.1636.1027" timestamp="1585801926754" />
+    <state x="427" y="261" width="671" height="676" key="search.everywhere.popup" timestamp="1585794573442">
+      <screen x="43" y="23" width="1637" height="1027" />
+    </state>
+    <state x="427" y="261" width="671" height="676" key="search.everywhere.popup/43.23.1637.1027@43.23.1637.1027" timestamp="1585794573442" />
+    <state x="428" y="261" width="670" height="676" key="search.everywhere.popup/44.23.1636.1027@44.23.1636.1027" timestamp="1585794111337" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/ATM_s14$settings.coverage" NAME="settings Coverage Results" MODIFIED="1585794909453" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/conf" />
+    <SUITE FILE_PATH="coverage/ATM_s14$start.coverage" NAME="start Coverage Results" MODIFIED="1585801447391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
