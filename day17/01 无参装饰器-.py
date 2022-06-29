@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # @File      : 01 无参装饰器
 # @Author    : 刘俊 mophia
 # @Email     : contact@mophia.com
@@ -24,7 +23,6 @@
 
 """
 
-=======
 """
 一、储备知识
 1. *args **kwargs
