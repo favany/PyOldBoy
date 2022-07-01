@@ -1,9 +1,6 @@
 # @File      : 01 json与pickle模块
 # @Author    : 刘俊 mophia
-# @Email     : contact@mophia.com
-# @Work Email: jun.liu@deepfinance.com
 # @Time      : 2022/5/30 10:23 PM
-# @Info      :
 
 # 什么是序列化/反序列化？
 # 序列化是指把内存的数据类型转换成一个特定格式的内容，该格式的内容可用于存储或者传输给其他平台使用。
@@ -20,7 +17,7 @@
 
 # 强调：
 #   针对用途 1 的特定格式：专用格式 pickle 只有 python 可以识别
-#   针对用途 2 的特定格式：
+#   针对用途 2 的特定格式：json
 
 # 如何序列化？
 
