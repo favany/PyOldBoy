@@ -1,8 +1,9 @@
 import foo
+import m1
 
 x = 1
 y = 2
 
-print(foo.x)
-foo.f1()
-print(foo.x)
+def f1():
+    from m2 import  y
+    print(y)

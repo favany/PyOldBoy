@@ -19,19 +19,28 @@ from ... import ...
 '''
 
 
-# 一行导入多个名字（不推荐）
+# 不推荐一行导入多个名字
 
-from foo import x
+from foo import x  # 在当前名称空间中赋值 x
 from foo import get
 from foo import change
 
-
+# * 导入模块中的所有名字
 from foo import *
 
+get() # foo 中的x 是 1
+change()
+get() # foo 中的x 是 0
+
+print(x)  # 当前名称空间中的x 是 1
+
+from foo import x # x=新地址
+
+print(x) # 0
+
 '''
-* 导入模块中的所有名字
 __all__ = ['a', 'b', 'c']
-控制 * 中导入的名字
+__all__ 控制 * 中导入的名字
 
 import b as 别名 
 from a as b as b的别名

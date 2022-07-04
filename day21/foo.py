@@ -1,26 +1,9 @@
-x = 1
+"""
+@File      : foo.py
+@Author    : 刘俊 mophia
+@Email     : faaa@live.com
+@Time      : 2022/7/3 8:59 AM
+"""
 
-
-def get():
-    print(x)
-
-
-def change():
-    global x  # 以定义阶段为准
-    x = 0
-
-
-print(__name__)
-
-
-# 1. 当 foo.py 运行时，__name__的值为 "__main__"
-if __name__ == '__main__':
-    print('文件被执行')
-    get()
-    change()
-# 2. 当 foo.py 被当作模块导入时，__name__的值为 "foo"
-else:
-    print('文件被导入')
-    pass
-
-
+def f1():
+    print('功能 f1 ...')
