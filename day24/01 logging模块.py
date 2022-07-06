@@ -1,9 +1,9 @@
-# @File      : 01 logging模块
-# @Author    : 刘俊 mophia
-# @Email     : contact@mophia.com
-# @Work Email: jun.liu@deepfinance.com
-# @Time      : 2022/6/5 10:58 AM
-# @Info      :
+"""
+@File      : 01 logging模块.py
+@Author    : 刘俊 mophia
+@Email     : faaa@live.com
+@Time      : 2022/6/5 10:58 AM
+"""
 
 import logging
 
@@ -16,7 +16,6 @@ logging.basicConfig(
     datefmt='%Y-%m-%d %H:%M:%S %p',
     # 4、日志级别 critical 50； error 40; warning 30；info 20；debug 10
     level=10)
-
 
 
 logging.debug('调试debug')

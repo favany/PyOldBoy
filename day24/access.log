@@ -1,5 +1,5 @@
-2022-06-05 11:33:13 AM - root - DEBUG -01 logging模块:  调试debug
-2022-06-05 11:33:13 AM - root - INFO -01 logging模块:  消息info
-2022-06-05 11:33:13 AM - root - WARNING -01 logging模块:  警告⚠️warning
-2022-06-05 11:33:13 AM - root - ERROR -01 logging模块:  错误error
-2022-06-05 11:33:13 AM - root - CRITICAL -01 logging模块:  严重critical
+2022-07-06 07:30:47 AM - root - DEBUG -01 logging模块:  调试debug
+2022-07-06 07:30:47 AM - root - INFO -01 logging模块:  消息info
+2022-07-06 07:30:47 AM - root - WARNING -01 logging模块:  警告⚠️warning
+2022-07-06 07:30:47 AM - root - ERROR -01 logging模块:  错误error
+2022-07-06 07:30:47 AM - root - CRITICAL -01 logging模块:  严重critical
