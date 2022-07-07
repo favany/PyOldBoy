@@ -77,6 +77,10 @@ LOGGING_DIC = {
             'class': 'logging.FileHandler',  # 保存到文件
             'formatter': 'test',
             'filename': 'a2.log',
+            '''
+            os.path.join(os.path.dirname(os.path.dirname(__file__)), 'log', 'a2.log')
+            
+            '''
             'encoding': 'utf-8',
         },
     },
