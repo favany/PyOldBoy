@@ -6,7 +6,7 @@
 # 课后了解性质——》闲着没事自己研究下
 # import logging.config
 #
-# logging.config.dictConfig(settings.LOGGING_DIC)
+# logging.config.dictConfig(settings.py.LOGGING_DIC)
 # print(logging.getLogger)
 
 # 接下来要做的是：拿到日志的产生者即loggers来产生日志

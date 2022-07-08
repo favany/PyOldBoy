@@ -8,12 +8,12 @@
 # import sys
 # # sys.path.append(r'/Users/linhaifeng/PycharmProjects/s14/day21/ATM')
 #
-# # from conf import settings
+# # from conf import settings.py
 # # from core import src
 # # from db import db_handle
 # # from lib import common
 #
-# # print(settings)
+# # print(settings.py)
 # # print(src)
 #
 # from core import src
