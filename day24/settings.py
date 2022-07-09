@@ -77,29 +77,32 @@ LOGGING_DIC = {
             'class': 'logging.FileHandler',  # 保存到文件
             'formatter': 'test',
             'filename': 'a2.log',
-            '''
-            os.path.join(os.path.dirname(os.path.dirname(__file__)), 'log', 'a2.log')
-            
-            '''
+            # os.path.join(os.path.dirname(os.path.dirname(__file__)), 'log', 'a2.log')
             'encoding': 'utf-8',
         },
     },
     'loggers': {
-        #logging.getLogger(__name__)拿到的logger配置
-        '': {
+        # logging.getLogger(__name__)拿到的logger配置
+        '终端提示': {
             'handlers': ['default', 'console'],  # 这里把上面定义的两个handler都加上，即log数据既写入文件又打印到屏幕
-            'level': 'DEBUG', # loggers(第一层日志级别关限制)--->handlers(第二层日志级别关卡限制)
-            'propagate': False,  # 默认为True，向上（更高level的logger）传递，通常设置为False即可，否则会一份日志向上层层传递
+            'level': 'DEBUG',  # loggers(第一层日志级别关限制)--->handlers(第二层日志级别关卡限制)
+            'propagate': False,  # 日志继承，默认为True，向上（更高level的logger）传递，通常设置为False即可，否则会一份日志向上层层传递
         },
-        '专门的采集': {
-            'handlers': ['other',],
+        '测试日志': {
+            'handlers': ['other'],
             'level': 'DEBUG',
             'propagate': False,
         },
+        '用户交易': {
+            'handlers': ['default'],
+            'level': 'DEBUG',
+            'propagate': False,
+        },
+        # 找不到对应的 key ，就用空 key
+        '': {
+            'handlers': ['default'],
+            'level': 'DEBUG',
+            'propagate': False,
+        }
     },
 }
-
-'''
-
-
-'''

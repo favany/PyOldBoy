@@ -23,3 +23,9 @@ logging.info('消息info')
 logging.warning('警告⚠️warning')
 logging.error('错误error')
 logging.critical('严重critical')
+
+'''
+日志轮转
+    日志记录着程序运行过程中的关键信息
+
+'''
