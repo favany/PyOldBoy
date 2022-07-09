@@ -11,9 +11,9 @@ def register():
         if password == re_password:
             import json
             import os
-            from conf import settings
+            from conf import settings.py
             user_path = os.path.join(
-                settings.USER_DATA_PATH, f'{username}.json'
+                settings.py.USER_DATA_PATH, f'{username}.json'
             )
 
             # 2）查看用户是否存在
@@ -47,7 +47,7 @@ def register():
             # 文件名: 用户名.json  tank.json   矮跟.json
             # 4.2）拼接用户的json文件路径
             user_path = os.path.join(
-                settings.USER_DATA_PATH, f'{username}.json'
+                settings.py.USER_DATA_PATH, f'{username}.json'
             )
 
             with open(user_path, 'w', encoding='utf-8') as f:
